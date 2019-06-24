@@ -6,11 +6,11 @@ let ResultadoEl = document.querySelector('#conta');
 
 BotaoEl.addEventListener('click', function(){
 
-let A = CoeficienteaEl.value;
-let B = CoeficientebEl.value;
-let X = ValorxEl.value;
+let A = parseInt(CoeficienteaEl.value);
+let B = parseInt(CoeficientebEl.value);
+let X = parseInt(ValorxEl.value);
 
-ResultadoEl.value = A * X + (B);
+ResultadoEl.value = A * X + B;
 
 let CortayEl = document.querySelector('#corta-y');
 CortayEl.value = B;

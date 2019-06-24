@@ -35,17 +35,6 @@ button {
   margin-left: 50px;
 }
 
-#botao {
-  position: absolute;
-  right: 450px;
-  bottom: 40px;
-}
-
-#botão {
-  position: absolute;
-  right: 450px;
-  bottom: -45px;
-}
 
 p, h1, h2, li, a, button {
     font-family: 'Amatic SC', cursive;
